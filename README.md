@@ -39,7 +39,7 @@ Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
 ## index.html
-
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -60,8 +60,11 @@ Upload to GitHub Pages for free hosting.
     <script src="script.js"></script>
 </body>
 </html>
+```
 
 ## script.js
+
+```
 
 function addTask() {
     let input = document.getElementById("taskInput");
@@ -93,7 +96,10 @@ function addTask() {
     input.value = "";
 }
 
+```
 ## style.css
+
+```
 
 body {
     font-family: Arial;
@@ -133,9 +139,9 @@ li button {
     background: red;
     margin-left: 10px;
 }
-
-
+```
 ## OUTPUT
+
 ![alt text](image.png)
 
 
